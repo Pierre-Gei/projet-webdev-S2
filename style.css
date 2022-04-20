@@ -1,0 +1,10 @@
+img{
+    display:inline-block;
+    max-width: 150px;
+}
+.test h1{
+    display: inline-block;
+    font-size: 125px;
+    margin: 0;
+    vertical-align: top;
+}
