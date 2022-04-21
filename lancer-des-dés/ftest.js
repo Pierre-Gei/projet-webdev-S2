@@ -1,5 +1,5 @@
 let boutton =  document.getElementById("button");
-boutton.addEventListener("click",roll);
+document.addEventListener("keydown",testkey);
 function roll(){
     let output1 = document.getElementById("container1");
     let output2 = document.getElementById("container2");
@@ -47,4 +47,13 @@ function roll(){
             break;            
     }
     output3.innerHTML = x1 + x2;
+}
+function testkey(event){
+    switch(event.key){
+        case " ":
+            roll();
+            break;
+        default:
+            break;
+    }
 }
